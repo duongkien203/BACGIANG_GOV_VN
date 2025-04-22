@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cổng thông tin điện tử tỉnh Bắc Giang</title>
+    <link rel="icon" href="./images/logo/logo_bg.png" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="layer">
+          <div class="hero-text">
+            <a href="index.html"
+              ><img src="./images/logo/logo_bg.png" alt="Image Default"
+            /></a>
+            <div class="wrapper-hero-text">
+              <div class="header-title">
+                CỔNG THÔNG TIN ĐIỆN TỬ TỈNH BẮC GIANG
+              </div>
+              <div class="header-title2">
+                TÍCH HỢP CÁC CỔNG SỞ, BAN, NGÀNH, HUYỆN, THÀNH PHỐ TRONG TỈNH
+                BẮC GIANG
+              </div>
+            </div>
+          </div>
+          <div class="header-right">
+            <div class="language-edit">
+              <ul>
+                <li>
+                  <a target="_blank" href="https://en.bacgiang.gov.vn/"
+                    ><img src="./images/header/uk-32.jpg" alt="Image Default"
+                  /></a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://jp.bacgiang.gov.vn/"
+                    ><img src="./images/header/jp-32.jpg" alt="Image Default"
+                  /></a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://cn.bacgiang.gov.vn/"
+                    ><img src="./images/header/tq-32.jpg" alt="Image Default"
+                  /></a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://kr.bacgiang.gov.vn/"
+                    ><img src="./images/header/kr-32.jpg" alt="Image Default"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <div class="search-bar">
+              <input
+                type="text"
+                id="input-search-desktop"
+                placeholder="Tìm kiếm..."
+              />
+              <button id="btn-search">
+                <img src="./images/header/search-icon.png" alt="" />
+              </button>
+            </div>
+            <div class="btn-search-wrapper hidden">
+              <button id="call-btn-search">
+                <img src="./images/header/search-icon.png" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="search-bar-mobile hidden">
+        <input type="text" id="input-search-mobile" placeholder="Tìm kiếm..." />
+        <button id="btn-search">
+          <img src="./images/header/search-icon.png" alt="" />
+        </button>
+      </div>
+      <div id="navigation" class="sort-pages"></div>
+      <div class="navbar-inner">
+        <button class="menu-toggle hidden" id="menu-toggle">
+          <img src="./images/menu-toggle/menu.png" alt="" />
+        </button>
+        <div class="nav-wrapper">
+          <div class="nav-content-wrapper" id="nav-content-wrapper">
+            <div class="nav-icon">
+              <a href="index.html"
+                ><img src="./images/header/home.png" alt=""
+              /></a>
+              <a href="#" onclick=""
+                ><img src="./images/header/phone.png" alt=""
+              /></a>
+            </div>
+            <div class="nav-menu">
+              <a
+                target="_blank"
+                href="https://bacgiang.gov.vn/tong-quan-ve-bac-giang"
+                class="menu-content"
+                >TỔNG QUAN VỀ BẮC GIANG</a
+              >
+              <a
+                target="_blank"
+                href="https://bacgiang.gov.vn/tinh-uy"
+                class="menu-content"
+                >BỘ MÁY TỔ CHỨC</a
+              >
+              <a
+                target="_blank"
+                href="https://bacgiang.gov.vn/cong-dan-can-biet"
+                class="menu-content"
+                >CÔNG DÂN</a
+              >
+              <a
+                target="_blank"
+                href="https://xtdt.bacgiang.gov.vn/"
+                class="menu-content"
+                >DOANH NGHIỆP</a
+              >
+              <a
+                target="_blank"
+                href="http://dulich.bacgiang.gov.vn/"
+                class="menu-content"
+                >DU LỊCH</a
+              >
+              <a target="_blank" href="" class="menu-content">DỊCH VỤ CÔNG</a>
+            </div>
+          </div>
+          <span id="date-today">today</span>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content-container">
+          <div class="portlet-borderless-container">
+            <a
+              href="https://bacgiang.gov.vn/tin-trong-tinh"
+              target="_blank"
+              class="top-nav-bullet"
+              ><span>Tin tức</span></a
+            >
+            <ul class="nav nav-collapse">
+              <li>
+                <a
+                  href="https://bacgiang.gov.vn/chinh-tri"
+                  class="hidden-border"
+                  ><span>Chính trị</span></a
+                >
+              </li>
+              <li>
+                <a href="https://bacgiang.gov.vn/kinh-te"
+                  ><span>Kinh tế</span></a
+                >
+              </li>
+              <li>
+                <a href="https://bacgiang.gov.vn/van-hoa-xa-hoi"
+                  ><span>Văn hóa - Xã hội</span></a
+                >
+              </li>
+              <li>
+                <a href="https://bacgiang.gov.vn/quoc-phong-an-ninh"
+                  ><span>Quốc phòng - An ninh</span></a
+                >
+              </li>
+              <li>
+                <a href="https://bacgiang.gov.vn/so-ban-nganh"
+                  ><span>Sở, ban, ngành</span></a
+                >
+              </li>
+              <li>
+                <a href="https://bacgiang.gov.vn/hoi-doan-the"
+                  ><span>Hội, đoàn thể</span></a
+                >
+              </li>
+              <li>
+                <a href="https://bacgiang.gov.vn/huyen-thanh-pho"
+                  ><span>Huyện, Thị xã, Thành phố</span></a
+                >
+              </li>
+              <li>
+                <a href="https://bacgiang.gov.vn/tin-trong-nuoc"
+                  ><span>Trong nước</span></a
+                >
+              </li>
+              <li>
+                <a href="https://bacgiang.gov.vn/tin-tuc-quoc-te"
+                  ><span>Quốc tế</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="cmnm">
+            <div class="marrque-content">
+              <marquee class="news-run" scrollamount="6" direction="left">
+                <span
+                  ><span style="color: #ff0000"
+                    ><strong
+                      ><span style="font-size: 16px"
+                        >Nhiệt liệt chào mừng 95 năm Ngày thành lập Đảng Cộng
+                        sản Việt Nam (03/02/1930 - 03/02/2025)!&nbsp; </span
+                      >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong
+                    ></span
+                  ><strong style="color: rgb(255, 0, 0)"
+                    ><span style="font-size: 16px"
+                      >Nhiệt liệt chào mừng 95 năm Ngày thành lập Đảng Cộng sản
+                      Việt Nam (03/02/1930 - 03/02/2025)!&nbsp; &nbsp; &nbsp;
+                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Nhiệt liệt chào
+                      mừng 95 năm Ngày thành lập Đảng Cộng sản Việt Nam
+                      (03/02/1930 - 03/02/2025)!&nbsp;</span
+                    ></strong
+                  ></span
+                >
+              </marquee>
+            </div>
+            <img
+              src="./images/main-content/chuc_mung_nam_moi/cmnm-2025.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content-wrapper">
+            <div class="main-content">
+              <div class="banner">
+                <div class="banner-big">
+                  <div id="banner-big-wrapper"></div>
+                  <div class="news-container">
+                    <div class="title-wrapper">
+                      <h1 class="news-title">
+                        <a href="#"><span>TIN TỨC</span></a>
+                      </h1>
+                    </div>
+                    <ul class="news-content">
+                      <li>
+                        <a href="#"
+                          >Giải chạy "Bắc giang mùa quả ngọt" năm 2024</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Lục ngạn: Nhiều hoạt động đặc sắc tại Hội chợ cam,
+                          bưởi và Tuần Du lịch năm 2024</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Toàn văn phát biểu của Bí thư Tỉnh ủy Nguyễn Văn Gấu
+                          tại lễ ra mắt đơn vị hành chính thị xã Chũ và huyện
+                          Lục Ngạn và Hội chợ cam, bưởi và Tuần Du lịch Lục Ngạn
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Bắc Giang ra mắt đơn vị hành chính thị xã Chũ và huyện
+                          Lục Ngạn; khai mạc Hội chợ cam, bưởi và Tuần Du lịch
+                          Lục Ngạn
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Hơn 30 gian hàng được trưng bày tại Hội chợ cam, bưởi
+                          và Tuần Du lịch Lục Ngạn năm 2024
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="banner-small">
+                  <div class="new_slider_container">
+                    <div class="swiper-wrapper">
+                      <div
+                        id="small-banner"
+                        class="small-banner-container"
+                      ></div>
+                      <div class="arrow-buttons">
+                        <div id="prev-btn" class="arrow-btn">
+                          <img
+                            src="./images/banner/banner-small/arrow/thin_left_arrow_333.png"
+                            alt=""
+                          />
+                        </div>
+                        <div id="next-btn" class="arrow-btn">
+                          <img
+                            src="./images/banner/banner-small/arrow/thin_right_arrow_333.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="img-content">
+                <div class="img-main">
+                  <a target="_blank" href="https://kinhtexahoi.bacgiang.gov.vn/"
+                    ><img
+                      src="./images/main-content/1715739938462_He thong thong tin KT-XH tinh 3 nho.jpg"
+                      alt=""
+                  /></a>
+                </div>
+                <div class="img-sub">
+                  <a target="_blank" href="https://bacgiang.gov.vn/vbtu">
+                    <img
+                      src="./images/main-content/1715740084175_VB Tinh uy 2024 2.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <a target="_blank" href="https://daihoidang.bacgiang.gov.vn/">
+                    <img
+                      src="./images/main-content/1715739982851_Thuc hien thang loi NQ 2024.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://bacgiang.gov.vn/hoat-dong-doi-ngoai-bg"
+                  >
+                    <img
+                      src="./images/main-content/1715740097716_Hoat dong doi ngoai 2.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://opendata.bacgiang.gov.vn/SitePages/default.aspx#/index"
+                  >
+                    <img
+                      src="./images/main-content/1715740001848_CSDL 2.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://bacgiang.gov.vn/chi-tiet-tin-tuc/-/asset_publisher/St1DaeZNsp94/content/quy-hoach-tinh-bac-giang-thoi-ky-2021-2030-tam-nhin-en-nam-2050"
+                  >
+                    <img
+                      src="./images/main-content/1715741010717_Quy hoạch tinh.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <a target="_blank" href="https://xtdt.bacgiang.gov.vn/">
+                    <img
+                      src="./images/main-content/1717747524043_Xuc tien dau tu.jpg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="img-main">
+                  <a href="https://bacgiang.gov.vn/xoa-nha-tam-nha-dot-nat">
+                    <img
+                      src="./images/main-content/1715741464157_Xoa nha tam nha dot nat 3.jpg"
+                      alt=""
+                      style="margin-top: 4px"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="tab-wrapper">
+                <div class="dieu-hanh-container tab-container">
+                  <ul class="nav nav-tabs" id="dieu-hanh-tabs"></ul>
+                  <div class="dieu-hanh-content" id="dieu-hanh-content"></div>
+                </div>
+                <div class="van-ban-container tab-container">
+                  <ul class="nav nav-tabs" id="van-ban-tabs"></ul>
+                  <div class="van-ban-content" id="van-ban-content"></div>
+                </div>
+              </div>
+              <div class="img-content">
+                <div class="img-main">
+                  <a
+                    target="_blank"
+                    href="https://dcs.bacgiang.gov.vn/detail/-/asset_publisher/M0UUAFstbTMq/content/bo-cau-hoi-phan-thi-viet-cuoc-thi-bac-giang-niem-tin-va-khat-vong-"
+                  >
+                    <img
+                      src="./images/main-content/1724400313839_Cuoc thi BG NT KV 2.jpg"
+                      alt=""
+                      style="margin-bottom: 4px"
+                    />
+                  </a>
+                </div>
+                <div class="img-sub">
+                  <a
+                    target="_blank"
+                    href="https://dichvucong.gov.vn/p/home/dvc-trang-chu.html"
+                  >
+                    <img
+                      src="./images/main-content/1717753263991_Cong DV Cong quoc gia.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://thongtinphapluat.bacgiang.gov.vn/trang-chu"
+                  >
+                    <img
+                      src="./images/main-content/1632361032704_page_177.png"
+                      alt=""
+                    />
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://dichvucong.bacgiang.gov.vn/#/home"
+                  >
+                    <img
+                      src="./images/main-content/1717753240488_1632360981557_page_174.png"
+                      alt=""
+                    />
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://bacgiang.gov.vn/thong-tin-cong-khai"
+                  >
+                    <img
+                      src="./images/main-content/1632361101074_page_178.png"
+                      alt=""
+                    />
+                  </a>
+                  <a target="_blank" href="https://hcc.bacgiang.gov.vn/">
+                    <img
+                      src="./images/main-content/1717753202946_1665739605949_Trung tam phuc vu HCC cong.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <a target="_blank" href="https://pakn.bacgiang.gov.vn/home">
+                    <img
+                      src="./images/main-content/1704333799166_He thong PAHT to.jpg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="tab-wrapper">
+                <div class="quy-hoach-container tab-container">
+                  <ul class="nav nav-tabs" id="quy-hoach-tabs"></ul>
+                  <div class="quy-hoach-content" id="quy-hoach-content"></div>
+                </div>
+                <div class="dau-thau-container tab-container">
+                  <ul class="nav nav-tabs" id="dau-thau-tabs"></ul>
+                  <div class="dau-thau-content" id="dau-thau-content"></div>
+                </div>
+              </div>
+
+              <div class="img-content">
+                <div class="img-sub">
+                  <a target="_blank" href="https://atgt.bacgiang.gov.vn/">
+                    <img src="./images/main-content/atgt.jpg" alt="" />
+                  </a>
+                  <a target="_blank" href="https://cds.bacgiang.gov.vn/">
+                    <img
+                      src="./images/main-content/1717747545530_Chuyen doi so to thu nho 3.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <a target="_blank" href="https://ocop.bacgiang.gov.vn/">
+                    <img src="./images/main-content/ocop.jpg" alt="" />
+                  </a>
+                  <a target="_blank" href="http://dulich.bacgiang.gov.vn/">
+                    <img src="./images/main-content/dulich.jpg" alt="" />
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://nongthonmoi.bacgiang.gov.vn/"
+                  >
+                    <img src="./images/main-content/ntm.jpg" alt="" />
+                  </a>
+                  <a target="_blank" href="https://attp.bacgiang.gov.vn/">
+                    <img src="./images/main-content/attp.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="img-main">
+                  <a target="_blank" href="https://festivalhoa.lamdong.gov.vn/">
+                    <img
+                      src="./images/main-content/1733126819477_FestivalHoa2024.gif"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+
+              <div class="tab-wrapper">
+                <div class="so-ban-nganh-container tab-container">
+                  <ul class="nav nav-tabs" id="so-ban-nganh-tabs"></ul>
+                  <div
+                    class="so-ban-nganh-content"
+                    id="so-ban-nganh-content"
+                  ></div>
+                </div>
+                <div class="huyen-thixa-thanhpho-container tab-container">
+                  <ul class="nav nav-tabs" id="huyen-thixa-thanhpho-tabs"></ul>
+                  <div
+                    class="huyen-thixa-thanhpho-content"
+                    id="huyen-thixa-thanhpho-content"
+                  ></div>
+                </div>
+              </div>
+              <div class="ho-tro-quang-ba">
+                <div class="ho-tro-quang-ba-title">
+                  <h3>
+                    <img src="/images/logo/logo_bg.png" />
+                    <span>HỖ TRỢ QUẢNG BÁ</span>
+                  </h3>
+                </div>
+                <div class="ho-tro-quang-ba-content">
+                  <div class="main-block">
+                    <div class="main-block-1">
+                      <a target="_blank" href="">
+                        <img
+                          src="./images/main-content/1695125588241_Xe khach BG.jpg"
+                          alt=""
+                        />
+                      </a>
+                      <a target="_blank" href="https://xuonggiangpaper.com/">
+                        <img
+                          src="./images/main-content/1651116529624_2344ecc4a8af69f130be.jpg"
+                          alt=""
+                        />
+                      </a>
+                      <a target="_blank" href="http://xosobacgiang.com/">
+                        <img
+                          src="/images/main-content/1695125516088_Xo so BG.jpg"
+                          alt=""
+                        />
+                      </a>
+                      <a target="_blank" href="https://mtdatviet.vn/">
+                        <img
+                          src="./images/main-content/1701682544502_z4942017276204_f84a2b66358e3b3259b13e29495d095d.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="main-block-2">
+                      <a target="_blank" href="https://vietcombank.com.vn/">
+                        <img
+                          src="./images/main-content/1694418945890_vietcombank.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="sub-block">
+                    <div class="sub-block-1">
+                      <a target="_blank" href="https://bgrea.bacgiang.gov.vn/">
+                        <img
+                          src="./images/main-content/1695614283422_Hiep Hoi BĐS BG 2.jpg"
+                          alt=""
+                        />
+                      </a>
+                      <a target="_blank" href="https://vieclambacgiang.vn/">
+                        <img
+                          src="./images/main-content/1695614300279_trung tam viec lam.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="sub-block-2">
+                      <a target="_blank" href="https://vnptbacgiang.com.vn/">
+                        <img
+                          src="/images/main-content/1636018827352_VNPT BG.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-wrapper">
+                <div class="sbn-htxtp-hdt-tdhcdthcn-container tab-container">
+                  <ul
+                    class="nav nav-tabs"
+                    id="sbn-htxtp-hdt-tdhcdthcn-tabs"
+                  ></ul>
+                  <div
+                    class="sbn-htxtp-hdt-tdhcdthcn-content"
+                    id="sbn-htxtp-hdt-tdhcdthcn-content"
+                  ></div>
+                </div>
+              </div>
+              <div class="tab-wrapper">
+                <div class="support-container tab-container">
+                  <ul class="nav nav-tabs" id="support-tabs"></ul>
+                  <div class="support-content" id="support-content"></div>
+                </div>
+              </div>
+            </div>
+            <div class="sub-content">
+              <div class="map sub-content-item">
+                <a
+                  href="https://bacgiang.gov.vn/ban-do-hanh-chinh-tinh-bac-giang"
+                  target="_blank"
+                >
+                  <img src="./images/sub-content/bando2.jpg" alt="" />
+                </a>
+              </div>
+              <div class="thong-tin-tong-hop portlet-wrapper">
+                <div class="portlet-title">
+                  <h3>
+                    <span>THÔNG TIN TỔNG HỢP</span>
+                  </h3>
+                </div>
+                <div class="portlet-content">
+                  <div class="danhbadientu row-portlet-content">
+                    <img
+                      src="./images/sub-content/thong_tin_tong_hop/page_273.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://bacgiang.gov.vn/chuong-trinh-cong-tac"
+                      target="_blank"
+                      >Chương trình công tác UBND Tỉnh</a
+                    >
+                  </div>
+                  <div class="danhbadientu row-portlet-content">
+                    <img
+                      src="./images/sub-content/thong_tin_tong_hop/page_274.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://bacgiang.gov.vn/lich-tiep-cong-dan"
+                      target="_blank"
+                      >Lịch tiếp công dân</a
+                    >
+                  </div>
+                  <div class="danhbadientu row-portlet-content">
+                    <img
+                      src="./images/sub-content/thong_tin_tong_hop/page_275.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://bacgiang.gov.vn/danh-ba-dien-tu"
+                      target="_blank"
+                      >Danh bạ điện tử</a
+                    >
+                  </div>
+                  <div class="danhbadientu row-portlet-content">
+                    <img
+                      src="./images/sub-content/thong_tin_tong_hop/1710819590689_Quoc_huy_VN1.jpg"
+                      alt=""
+                    />
+                    <a
+                      href="https://phapdien.moj.gov.vn/Pages/chi-tiet-bo-phap-dien.aspx"
+                      target="_blank"
+                      >Bộ pháp điển điện tử</a
+                    >
+                  </div>
+                  <div class="danhbadientu row-portlet-content">
+                    <img
+                      src="./images/sub-content/thong_tin_tong_hop/page_279.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://bacgiang.gov.vn/duong-day-nong"
+                      target="_blank"
+                      >Tổng hợp đường dây nóng</a
+                    >
+                  </div>
+                  <div class="danhbadientu row-portlet-content">
+                    <img
+                      src="./images/sub-content/thong_tin_tong_hop/page_280.png"
+                      alt=""
+                    />
+                    <a href="https://bacgiang.gov.vn/thong-ke-ktxh"
+                      >Thống kê Kinh tế - Xã hội</a
+                    >
+                  </div>
+                  <div class="danhbadientu row-portlet-content">
+                    <img
+                      src="./images/sub-content/thong_tin_tong_hop/page_277.png"
+                      alt=""
+                    />
+                    <a href="https://kntc.bacgiang.gov.vn/" target="_blank"
+                      >Thông tin giải quyết khiếu nại tố cáo</a
+                    >
+                  </div>
+                  <div class="danhbadientu row-portlet-content">
+                    <img
+                      src="./images/sub-content/thong_tin_tong_hop/page_281.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://bacgiang.gov.vn/khung-gia-dat"
+                      target="_blank"
+                      >Khung Giá Đất</a
+                    >
+                  </div>
+                  <div class="danhbadientu row-portlet-content">
+                    <img
+                      src="./images/sub-content/thong_tin_tong_hop/page_272.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://bacgiang.gov.vn/cong-bo-xep-hang"
+                      target="_blank"
+                      >Công bố xếp hạng</a
+                    >
+                  </div>
+                  <div class="danhbadientu row-portlet-content">
+                    <img
+                      src="./images/sub-content/thong_tin_tong_hop/page_276.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://bacgiang.gov.vn/khoa-hoc-cong-nghe"
+                      target="_blank"
+                      >Khoa học - Công nghệ</a
+                    >
+                  </div>
+                  <div class="danhbadientu row-portlet-content">
+                    <img
+                      src="./images/sub-content/thong_tin_tong_hop/page_278.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://bacgiang.gov.vn/khen-thuong-xu-phat-hanh-chinh"
+                      target="_blank"
+                      >Khen thưởng - Xử phạt hành chính</a
+                    >
+                  </div>
+                  <div class="danhbadientu row-portlet-content">
+                    <img
+                      src="./images/sub-content/thong_tin_tong_hop/cds-ico.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://bacgiang.gov.vn/chuyen-muc-chuyen-doi-so"
+                      target="_blank"
+                      >Chuyển đổi số</a
+                    >
+                  </div>
+                  <div class="danhbadientu row-portlet-content">
+                    <img
+                      src="./images/sub-content/thong_tin_tong_hop/page_280.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://bacgiang.gov.vn/cong-bo-thong-tin-doanh-nghiep-nha-nuoc"
+                      target="_blank"
+                      >Thông tin doanh nghiệp</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="portlet-body sub-content-item">
+                <a
+                  href="https://bacgiang.gov.vn/chinh-sach-moi"
+                  target="_blank"
+                >
+                  <img
+                    src="./images/sub-content/1710473527079_Chinh sach moi.jpg"
+                    alt=""
+                  />
+                </a>
+                <a
+                  href="https://bacgiang.gov.vn/dieu-tra-dan-so-va-nha-o-giua-ky-nam-2024"
+                  target="_blank"
+                >
+                  <img
+                    src="./images/sub-content/1711360968307_Dieu tra dan so.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="thong-tin-bao-chi portlet-wrapper">
+                <div class="portlet-title">
+                  <h3>
+                    <span>THÔNG TIN BÁO CHÍ</span>
+                  </h3>
+                </div>
+                <div class="portlet-content">
+                  <div class="row-portlet-content row-color">
+                    <img
+                      src="./images/sub-content/thong_tin_bao_chi/page_262.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://bacgiang.gov.vn/documents/20181/22971799/1731547229427_DS+nguoi+phat+ngon+update+thang+11-2024.pdf/987eab18-c8ed-46f9-9af5-2ebc37492e4b"
+                      target="_blank"
+                      >Danh sách người phát ngôn</a
+                    >
+                  </div>
+                  <div class="row-portlet-content row-color">
+                    <img
+                      src="./images/sub-content/thong_tin_bao_chi/page_264.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://bacgiang.gov.vn/bao-chi-viet-ve-bac-giang"
+                      target="_blank"
+                      >Báo chí viết về Bắc giang</a
+                    >
+                  </div>
+                  <div class="row-portlet-content row-color">
+                    <img
+                      src="./images/sub-content/thong_tin_bao_chi/page_263.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://bacgiang.gov.vn/chinh-quyen-voi-bao-chi"
+                      target="_blank"
+                      >Chính quyền với báo chí</a
+                    >
+                  </div>
+                  <div class="row-portlet-content"></div>
+                  <div class="row-portlet-content"></div>
+                </div>
+              </div>
+              <div class="tiem-nang-the-manh portlet-wrapper">
+                <div class="portlet-title">
+                  <h3>
+                    <span>TIỀM NĂNG - THẾ MẠNH</span>
+                  </h3>
+                </div>
+                <div class="tiem-nang-the-manh-content portlet-content">
+                  <div class="tiem-nang-the-manh-row row-portlet-content">
+                    <a
+                      href="https://bacgiang.gov.vn/ha-tang-giao-thong"
+                      target="_blank"
+                      >Hạ tầng giao thông</a
+                    >
+                  </div>
+                  <div class="tiem-nang-the-manh-row row-portlet-content">
+                    <a
+                      href="https://bacgiang.gov.vn/nguon-nhan-luc"
+                      target="_blank"
+                      >Nguồn nhân lực</a
+                    >
+                  </div>
+                  <div class="tiem-nang-the-manh-row row-portlet-content">
+                    <a href="https://bacgiang.gov.vn/du-lich1" target="_blank"
+                      >Du lịch</a
+                    >
+                  </div>
+                  <div class="tiem-nang-the-manh-row row-portlet-content">
+                    <a
+                      href="https://bacgiang.gov.vn/nong-lam-san"
+                      target="_blank"
+                      >Nông - Lâm sản</a
+                    >
+                  </div>
+                  <div class="tiem-nang-the-manh-row row-portlet-content">
+                    <a
+                      href="https://bacgiang.gov.vn/khu-cum-cong-nghiep"
+                      target="_blank"
+                      >Khu, cụm công nghiệp</a
+                    >
+                  </div>
+                  <div class="tiem-nang-the-manh-row row-portlet-content">
+                    <a href="https://bacgiang.gov.vn/lang-nghe" target="_blank"
+                      >Làng nghề</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="trao-doi-hoi-dap portlet-wrapper">
+                <div class="portlet-title">
+                  <h3>
+                    <span>TRAO ĐỔI - HỎI ĐÁP</span>
+                  </h3>
+                </div>
+                <div class="portlet-content">
+                  <div class="row-portlet-content">
+                    <img
+                      src="./images/sub-content/trao_doi_hoi_dap/page_104.png"
+                      alt=""
+                    />
+                    <a href="https://pakn.bacgiang.gov.vn/home" target="_blank"
+                      >Tiếp nhận, phản ánh ý kiến công dân</a
+                    >
+                  </div>
+                  <div class="row-portlet-content">
+                    <img
+                      src="./images/sub-content/trao_doi_hoi_dap/page_102.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://bacgiang.gov.vn/tra-loi-y-kien-cu-tri"
+                      target="_blank"
+                      >Trả lời ý kiến cử tri</a
+                    >
+                  </div>
+                  <div class="row-portlet-content">
+                    <img
+                      src="./images/sub-content/trao_doi_hoi_dap/page_103.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://bacgiang.gov.vn/doi-thoai-tt"
+                      target="_blank"
+                      >Đối thoại trực tuyến</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="lay-y-kien-nhan-dan portlet-wrapper">
+                <div class="portlet-title">
+                  <h3>
+                    <span>LẤY Ý KIẾN NHÂN DÂN</span>
+                  </h3>
+                </div>
+                <div class="portlet-content">
+                  <div class="row-portlet-content">
+                    <img
+                      src="./images/sub-content/lay_y_kien_nhan_dan/page_113.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://bacgiang.gov.vn/lay-y-kien-du-thao-van-ban"
+                      target="_blank"
+                      >Lấy ý kiến nhân dân dự thảo văn bản quy phạm pháp luật</a
+                    >
+                  </div>
+                  <div class="row-portlet-content">
+                    <img
+                      src="./images/sub-content/lay_y_kien_nhan_dan/page_114.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://snv.bacgiang.gov.vn/y-kien-cua-nhan-dan/"
+                      target="_blank"
+                      >Lấy ý kiến nhân dân về khen thưởng cấp nhà nước và công
+                      dân Bắc giang ưu tú</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="cong-bao portlet-wrapper">
+                <div class="portlet-title">
+                  <h3>
+                    <span>CÔNG BÁO</span>
+                  </h3>
+                </div>
+                <div class="portlet-content">
+                  <div class="row-portlet-content row-color">
+                    <img
+                      src="./images/sub-content/cong_bao/page_123.png"
+                      alt=""
+                    />
+                    <a href="https://congbao.chinhphu.vn/" target="_blank"
+                      >Công báo Chính phủ</a
+                    >
+                  </div>
+                  <div class="row-portlet-content row-color">
+                    <img
+                      src="./images/sub-content/cong_bao/page_123.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://congbao.bacgiang.gov.vn/congbao/congbao.nsf/TrangChu"
+                      target="_blank"
+                      >Công báo Bắc giang</a
+                    >
+                  </div>
+                  <div class="row-portlet-content row-color">
+                    <img
+                      src="./images/sub-content/cong_bao/page_123.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://bacgiang.gov.vn/cong-bao-cac-tinh-thanh-pho"
+                      target="_blank"
+                      >Công báo các tỉnh, thành phố</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="chinh-sach portlet-wrapper">
+                <div class="portlet-title">
+                  <h3>
+                    <span>CHÍNH SÁCH</span>
+                  </h3>
+                </div>
+                <div class="portlet-content">
+                  <div class="row-portlet-content row-color">
+                    <img
+                      src="./images/sub-content/chinh_sach/page_136.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://bacgiang.gov.vn/chinh-sach-giam-ngheo"
+                      target="_blank"
+                      >CHÍNH SÁCH GIẢM NGHÈO</a
+                    >
+                  </div>
+                  <div class="row-portlet-content row-color">
+                    <img
+                      src="./images/sub-content/chinh_sach/page_136.png"
+                      alt=""
+                    />
+                    <a
+                      href="https://bacgiang.gov.vn/che-do-chinh-sach-nguoi-co-cong"
+                      target="_blank"
+                      >CHẾ ĐỘ, CHÍNH SÁCH NGƯỜI CÓ CÔNG</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="portlet-body sub-content-item">
+                <a href="https://qcdc.bacgiang.gov.vn/" target="_blank">
+                  <img
+                    src="./images/sub-content/1695294075426_Quy che dan chu 1.jpg"
+                    alt=""
+                  />
+                </a>
+                <a href="https://bacgiang.gov.vn/nhan-quyen" target="_blank">
+                  <img
+                    src="./images/sub-content/1723107890057_Nhan quyen.jpg"
+                    alt=""
+                  />
+                </a>
+                <a
+                  href="https://stp.bacgiang.gov.vn/documents/21427/18225751/1696305494804_So+tay+thong+tin+PL+tren+Website+danh+cho+Doanh+nghiep_signed.pdf/b520da28-0469-489f-9227-5ded100f746f"
+                  target="_blank"
+                >
+                  <img
+                    src="./images/sub-content/1696501729653_Danh muc dia chi web cac co quan NN.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="thong-tin-do-hoa portlet-wrapper">
+                <div class="portlet-title">
+                  <h3>
+                    <span>TIN INFOGRAPHICS</span>
+                  </h3>
+                </div>
+                <div class="thong-tin-do-hoa-content portlet-content">
+                  <div class="thong-tin-do-hoa-row news-item">
+                    <a
+                      href="https://bacgiang.gov.vn/chi-tiet-tin-tuc/-/asset_publisher/St1DaeZNsp94/content/infographic-tinh-hinh-kinh-te-xa-hoi-tinh-bac-giang-thang-11-va-11-thang-nam-2024"
+                      target="_blank"
+                    >
+                      <img
+                        src="./images/sub-content/thong_tin_do_hoa/article.jpg"
+                        alt=""
+                      />
+                      <p>
+                        Infographic: Tình hình kinh tế - xã hội tỉnh Bắc Giang
+                        tháng 11 và nhiều nội dung
+                      </p>
+                    </a>
+                    <div class="news-item-date"><span>18/12/2024</span></div>
+                  </div>
+                  <div class="thong-tin-do-hoa-row news-item">
+                    <a
+                      href="https://bacgiang.gov.vn/chi-tiet-tin-tuc/-/asset_publisher/St1DaeZNsp94/content/infographic-bac-giang-sau-sap-xep-co-10-on-vi-cap-huyen-192-xa-phuong-thi-tran"
+                      target="_blank"
+                    >
+                      <img
+                        src="./images/sub-content/thong_tin_do_hoa/article_2.jpg"
+                        alt=""
+                      />
+                      <p>
+                        Infographic: Bắc Giang sau sắp xếp có 10 đơn vị cấp
+                        huyện, 192 xã và còn rất nhiều nội dung
+                      </p>
+                    </a>
+                    <div class="news-item-date"><span>18/12/2024</span></div>
+                  </div>
+                  <div class="thong-tin-do-hoa-row news-item">
+                    <a
+                      href="https://bacgiang.gov.vn/chi-tiet-tin-tuc/-/asset_publisher/St1DaeZNsp94/content/ky-hop-thu-22-h-nd-tinh-bac-giang-khoa-xix-nhieu-noi-dung-quan-trong-uoc-xem-xet-thong-qua"
+                      target="_blank"
+                    >
+                      <img
+                        src="./images/sub-content/thong_tin_do_hoa/article_3.jpg"
+                        alt=""
+                      />
+                      <p>
+                        Infographic: Kỳ họp thứ 22, HĐND tỉnh Bắc Giang khóa
+                        XIX: Nhiều nội và còn rất nhiều nội dung
+                      </p>
+                    </a>
+                    <div class="news-item-date"><span>12/12/2024</span></div>
+                  </div>
+                  <div class="thong-tin-do-hoa-detail">
+                    <a href="#" target="_blank">Xem thêm</a>
+                  </div>
+                </div>
+              </div>
+              <div class="trang-video portlet-wrapper">
+                <div class="portlet-title">
+                  <h3>
+                    <span>TRANG VIDEO</span>
+                  </h3>
+                </div>
+                <div class="trang-video-content portlet-content">
+                  <div class="trang-video-title">
+                    <a
+                      href="https://www.youtube.com/channel/UCMumL9Qn5yW7TebVFYcct8Q"
+                    >
+                      <img
+                        src="./images/sub-content/trang_video/channels4_profile.jpg"
+                        alt=""
+                      />
+                    </a>
+                    <a
+                      href="https://www.youtube.com/watch?v=WPp_5OBxc58&t=17s"
+                      class="title-video"
+                      >Bắc Giang ngày mới ngày 21-12-2024</a
+                    >
+                    <h1>:</h1>
+                  </div>
+                  <div class="trang-video-video">
+                    <video controls>
+                      <source
+                        src="./images/sub-content/trang_video/BGNN.mp4"
+                        type="video/mp4"
+                      />
+                    </video>
+                  </div>
+                  <div class="trang-video-introduce">
+                    Bắc Giang ngày mới ngày 21-12-2024
+                  </div>
+                </div>
+              </div>
+              <div class="thu-vien-anh portlet-wrapper">
+                <div class="portlet-title">
+                  <h3>
+                    <span>THƯ VIỆN ẢNH</span>
+                  </h3>
+                </div>
+                <div class="thu-vien-anh-content">
+                  <div class="thu-vien-anh-wrapper">
+                    <div id="thu-vien-anh-slide"></div>
+                    <div class="dot-container" id="dot-container"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="lien-ket portlet-wrapper">
+                <div class="portlet-title">
+                  <h3>
+                    <span>LIÊN KẾT</span>
+                  </h3>
+                </div>
+                <div class="lien-ket-content">
+                  <div class="portlet-body sub-content-item">
+                    <a
+                      href="https://bacgiang.gov.vn/chuyen-trang-tinh-hop-csdl"
+                      target="_blank"
+                    >
+                      <img
+                        src="./images/sub-content/lien_ket/1717753592134_Chuyen trang Tich hop CSDL  2 3.jpg"
+                        alt=""
+                      />
+                    </a>
+                    <a href="https://vbpl.vn/pages/portal.aspx" target="_blank">
+                      <img
+                        src="./images/sub-content/lien_ket/1632304639062_page_156.png"
+                        alt=""
+                      />
+                    </a>
+                    <a
+                      href="https://bacgiang.gov.vn/thong-tin-dich-vu-cong-truc-tuyen"
+                      target="_blank"
+                    >
+                      <img
+                        src="./images/sub-content/lien_ket/1665741275133_Thong tin DVC truc tuyen.jpg"
+                        alt=""
+                      />
+                    </a>
+                    <a
+                      href="https://bacgiang.gov.vn/csdl-vu-viec-vuong-mac-phap-ly"
+                      target="_blank"
+                    >
+                      <img
+                        src="./images/sub-content/lien_ket/1695295312725_CSDL Vuong mac phap ly.jpg"
+                        alt=""
+                      />
+                    </a>
+                    <a
+                      href="https://bacgiang.gov.vn/vai-thieu-bac-giang"
+                      target="_blank"
+                    >
+                      <img
+                        src="./images/sub-content/lien_ket/1722852806949_Vai thieu nho 2.jpg"
+                        alt=""
+                      />
+                    </a>
+                    <a href="https://ldld.bacgiang.gov.vn/" target="_blank">
+                      <img
+                        src="./images/sub-content/lien_ket/1711415618677_Cong doan 3.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="lien-ket-website portlet-wrapper">
+                <div class="lien-ket-website-title portlet-title">
+                  <h3>
+                    <span>LIÊN KẾT WEBSITE</span>
+                  </h3>
+                </div>
+                <div class="lien-ket-website-content portlet-content">
+                  <select name="link" id="link" class="form-control">
+                    <option value="#">Chọn liên kết</option>
+                    <option value="#">1</option>
+                    <option value="#">2</option>
+                    <option value="#">3</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lien-ket-2 portlet-wrapper">
+            <div class="portlet-title">
+              <h3>
+                <img src="/images/logo/logo_bg.png" />
+                <span>LIÊN KẾT</span>
+              </h3>
+            </div>
+            <div class="lien-ket-content-2">
+              <a target="_blank" href="https://yendung.bacgiang.gov.vn/">
+                <img
+                  src="./images/main-content/lien-ket/1683516375243_yên dũng 4.png"
+                  alt=""
+                />
+              </a>
+              <a target="_blank" href="https://tanyen.bacgiang.gov.vn/">
+                <img
+                  src="./images/main-content/lien-ket/1732090512252_1-Tan-yen.gif"
+                  alt=""
+                />
+              </a>
+              <a target="_blank" href="https://langgiang.bacgiang.gov.vn/">
+                <img
+                  src="./images/main-content/lien-ket/1599105592906_Lang Giang.jpg"
+                  alt=""
+                />
+              </a>
+              <a target="_blank" href="https://lucnam.bacgiang.gov.vn/">
+                <img
+                  src="./images/main-content/lien-ket/1732090577929_3-Luc-Nam-0.gif"
+                  alt=""
+                />
+              </a>
+              <a target="_blank" href="https://hiephoa.bacgiang.gov.vn/">
+                <img
+                  src="./images/main-content/lien-ket/1732091153974_2 Hiep Hoa.jpg"
+                  alt=""
+                />
+              </a>
+              <a target="_blank" href="https://vietyen.bacgiang.gov.vn/">
+                <img
+                  src="./images/main-content/lien-ket/1683529972629_banner Viet yen 2.png"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer-container">
+          <div class="footer-menu">
+            <ul class="wrapper-footer-menu">
+              <li>
+                <a href="index.html">TRANG CHỦ</a>
+              </li>
+              <li>
+                <a href="https://bacgiang.gov.vn/so-do-trang" target="_blank"
+                  >SƠ ĐỒ TRANG</a
+                >
+              </li>
+              <li>
+                <a href="https://bacgiang.gov.vn/lien-he" target="_blank"
+                  >LIÊN HỆ</a
+                >
+              </li>
+              <li>
+                <a href="https://bacgiang.gov.vn/gop-y" target="_blank"
+                  >GÓP Ý</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://bacgiang.gov.vn/web/chuyen-trang-english/home"
+                  target="_blank"
+                  >ENGLISH</a
+                >
+              </li>
+              <li>
+                <a href="index.html">CHINESE</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-content">
+            <div class="left-footer">
+              <div class="left-footer-content">
+                <p class="online">Số lượng đang truy cập: 34,116</p>
+                <p class="total">Lượt đã truy cập: 369,781,761</p>
+              </div>
+            </div>
+            <div class="right-footer">
+              <div class="right-footer-content">
+                <h3>CỔNG THÔNG TIN ĐIỆN TỬ TỈNH BẮC GIANG</h3>
+
+                <p>
+                  Giấy phép số: 03/GP-STTTT do Sở Thông tin và Truyền thông tỉnh
+                  Bắc Giang cấp ngày 14/01/2020
+                </p>
+
+                <p>Bản quyền thuộc Ủy ban nhân dân tỉnh Bắc Giang.</p>
+
+                <p>
+                  Chịu trách nhiệm chính: Ông Lê Tuấn Phú&nbsp;- Chánh Văn phòng
+                  UBND tỉnh.
+                </p>
+
+                <p>
+                  Trụ sở: Số 82 Hùng Vương - TP. Bắc Giang - Tỉnh Bắc Giang.
+                </p>
+
+                <p>
+                  Điện thoại: (0204) 3.829.003; Fax: (0204) 3.855.012; Email:
+                  banbientapbg@gmail.com
+                </p>
+
+                <p>
+                  Ghi rõ nguồn “Cổng Thông tin điện tử tỉnh Bắc Giang” hoặc
+                  “bacgiang.gov.vn” khi đăng lại&nbsp;thông tin từ nguồn này.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
